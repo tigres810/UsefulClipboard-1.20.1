@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "NUN",
+        " Z "
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wooden_pressure_plates"
+        },
+        "S": {
+            "tag": "minecraft:wooden_buttons"
+        },
+        "N": {
+            "item": "minecraft:slime_ball"
+        },
+        "U": {
+            "item": "usclb:clipboardfolder"
+        },
+        "Z": {
+            "item": "usclb:inkandquill"
+        }
+    },
+    "result": {
+        "item": "usclb:clipboard",
+        "count": 1
+    }
+}

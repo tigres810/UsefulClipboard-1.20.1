@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#P#",
+        "#P#"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wooden_pressure_plates"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "usclb:clipboardfolder",
+        "count": 1
+    }
+}
