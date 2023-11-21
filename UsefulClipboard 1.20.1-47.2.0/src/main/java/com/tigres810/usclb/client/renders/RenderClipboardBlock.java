@@ -2,6 +2,7 @@ package com.tigres810.usclb.client.renders;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.math.Axis;
 import com.tigres810.usclb.common.blockentitys.EntityClipboardBlock;
 import com.tigres810.usclb.common.blocks.ClipboardBlock;
 import com.tigres810.usclb.common.data.ClipboardOrientation;
@@ -26,7 +27,7 @@ public class RenderClipboardBlock implements BlockEntityRenderer< EntityClipboar
 
 	//private static final ResourceLocation BUTTON_TEXTURE = new ResourceLocation( Main.MODID, "block/page_buttons" );
 	private static final ResourceLocation BUTTON_TEXTURE = new ResourceLocation( "block/stone" );
-	private static final Quaternionf FLOOR_ROTATION = new Quaternionf().rotateAxis( -90, 1, 0, 0 );
+	private static final Quaternionf FLOOR_ROTATION = Axis.XP.rotationDegrees( -90 );
 
 	private final Font font;
 
